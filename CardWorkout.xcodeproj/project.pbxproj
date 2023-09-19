@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9300DA182AB98D640065AAF2 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9300DA172AB98D640065AAF2 /* Deck.swift */; };
 		93D9A6FA2AB859DC00644BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9A6F92AB859DC00644BD8 /* AppDelegate.swift */; };
 		93D9A6FC2AB859DC00644BD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9A6FB2AB859DC00644BD8 /* SceneDelegate.swift */; };
-		93D9A6FE2AB859DC00644BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9A6FD2AB859DC00644BD8 /* ViewController.swift */; };
 		93D9A7012AB859DC00644BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D9A6FF2AB859DC00644BD8 /* Main.storyboard */; };
 		93D9A7032AB859DE00644BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D9A7022AB859DE00644BD8 /* Assets.xcassets */; };
 		93D9A7062AB859DE00644BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D9A7042AB859DE00644BD8 /* LaunchScreen.storyboard */; };
+		93D9A70E2AB85A3C00644BD8 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9A70D2AB85A3C00644BD8 /* CardSelectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9300DA172AB98D640065AAF2 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		93D9A6F62AB859DC00644BD8 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D9A6F92AB859DC00644BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93D9A6FB2AB859DC00644BD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93D9A6FD2AB859DC00644BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93D9A7002AB859DC00644BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93D9A7022AB859DE00644BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D9A7052AB859DE00644BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93D9A7072AB859DE00644BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D9A70D2AB85A3C00644BD8 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				93D9A6F92AB859DC00644BD8 /* AppDelegate.swift */,
 				93D9A6FB2AB859DC00644BD8 /* SceneDelegate.swift */,
-				93D9A6FD2AB859DC00644BD8 /* ViewController.swift */,
+				9300DA172AB98D640065AAF2 /* Deck.swift */,
 				93D9A6FF2AB859DC00644BD8 /* Main.storyboard */,
+				93D9A70D2AB85A3C00644BD8 /* CardSelectionVC.swift */,
 				93D9A7022AB859DE00644BD8 /* Assets.xcassets */,
 				93D9A7042AB859DE00644BD8 /* LaunchScreen.storyboard */,
 				93D9A7072AB859DE00644BD8 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D9A6FE2AB859DC00644BD8 /* ViewController.swift in Sources */,
+				9300DA182AB98D640065AAF2 /* Deck.swift in Sources */,
 				93D9A6FA2AB859DC00644BD8 /* AppDelegate.swift in Sources */,
 				93D9A6FC2AB859DC00644BD8 /* SceneDelegate.swift in Sources */,
+				93D9A70E2AB85A3C00644BD8 /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
